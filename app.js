@@ -58,3 +58,14 @@ function condicionesIniciales() {
     numeroSecreto = generarNumeroSecreto();
     intentos = 1;
 }
+
+function reiniciarJuego() {
+    // Limpiar caja
+    limpiarCaja();
+    // Indicar mensaje de intervalo de números
+    // Generar el número aleatorio
+    // Inicializar el número de intentos
+    condicionesIniciales();
+    // Deshabilitar el boton de nuevo juego
+    document.querySelector('#reiniciar').setAttribute('disabled','true');
+}
