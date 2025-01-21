@@ -27,3 +27,7 @@ function verificarIntento(){
     }
     return;
 }
+
+function limpiarCaja() {  
+    document.querySelector('#valorUsuario').value = '';
+}
